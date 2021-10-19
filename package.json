@@ -1,0 +1,32 @@
+{
+  "name": "color-dip",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "gl-matrix": "*",
+    "lodash": "*",
+    "normalize.css": "*"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "*",
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-typescript": "*",
+    "@types/lodash": "*",
+    "babel-loader": "*",
+    "clean-webpack-plugin": "*",
+    "copy-webpack-plugin": "*",
+    "css-loader": "*",
+    "file-loader": "*",
+    "html-webpack-plugin": "*",
+    "shader-loader": "*",
+    "style-loader": "*",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*"
+  }
+}
